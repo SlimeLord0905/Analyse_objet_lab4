@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeLib", "CollegeLib\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeApp", "CollegeApp\CollegeApp.csproj", "{43DD8784-9085-459F-B9CE-A7D580283F48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{A5A0AE96-45FB-4551-A53B-BB42BE45E654}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeDataLib", "CollegeDataLib\CollegeDataLib.csproj", "{A04BFD7D-49F2-4303-B7C2-4CDA86548798}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollegeLibDataTest", "CollegeLibDataTest\CollegeLibDataTest.csproj", "{7D2E48CD-53DF-4CEF-A0F6-4F6D9937611D}"
@@ -24,10 +22,6 @@ Global
 		{43DD8784-9085-459F-B9CE-A7D580283F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DD8784-9085-459F-B9CE-A7D580283F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DD8784-9085-459F-B9CE-A7D580283F48}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A5A0AE96-45FB-4551-A53B-BB42BE45E654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A5A0AE96-45FB-4551-A53B-BB42BE45E654}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A5A0AE96-45FB-4551-A53B-BB42BE45E654}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A5A0AE96-45FB-4551-A53B-BB42BE45E654}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A04BFD7D-49F2-4303-B7C2-4CDA86548798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A04BFD7D-49F2-4303-B7C2-4CDA86548798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A04BFD7D-49F2-4303-B7C2-4CDA86548798}.Release|Any CPU.ActiveCfg = Release|Any CPU

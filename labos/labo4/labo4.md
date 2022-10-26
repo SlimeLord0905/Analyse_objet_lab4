@@ -13,23 +13,22 @@ Development*).
 Complétez les projets `CollegeLib`, `CollegeDataLib` et `CollegeLibDataTest`, en
 se basant sur le code déjà présent et les informations données plus bas.
 
-1. Modifiez les classes `StudyProgram`, `Course` et `CourseOffering` de la même
+1. Modifiez les classes `Course` et `CourseOffering` de la même
    façon que la classe `Person`. Elle doivent implémenter
    l'interface `IComparable<>` et la méthode `CompareTo`.
-    - `StudyProgram` : comparer le nom des programmes
-    - `Course` : comparer le code des cours
-    - `CourseOffering` : comparer l'année, suivi de la session et ensuite du
-      code de cours.
+   - `Course` : comparer le code des cours
+   - `CourseOffering` : comparer l'année, suivi de la session et ensuite du
+     code de cours.
 2. Ajoutez des méthodes statiques dans la classe `Sorting` pour être capable de
    trier les objets des différentes classes selon les critères suivants. Chaque
    critère de tri doit avoir les options croissante (`SortOrder.Asc`) ou
    décroissante (`SortOrder.Desc`)
-    - `Person` : trier selon l'ordre par défaut
-    - `Person` : trier par date de naissance
-    - `Course` : trier selon l'ordre par défaut
-    - `Course` : trier par nom
-    - `CourseOffering` : trier selon l'ordre par défaut
-3. Créez des *mocks* pour `StudyProgram`, `Course` et `CourseOffering` semblable
+   - `Person` : trier selon l'ordre par défaut
+   - `Person` : trier par date de naissance
+   - `Course` : trier selon l'ordre par défaut
+   - `Course` : trier par nom
+   - `CourseOffering` : trier selon l'ordre par défaut
+3. Créez des *mocks* pour `Course` et `CourseOffering`, semblables
    au mock de `Person`.
 4. Testez vos *mocks* à la manière du *mock* de `Person`. Créez des classes de
    tests différentes pour chaque mock.
